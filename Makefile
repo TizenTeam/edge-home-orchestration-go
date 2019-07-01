@@ -1,3 +1,6 @@
+BASE_DIR?=${CURDIR}
+CONTAINER_VERSION?=0
+
 # Go parameters
 GOCMD       := go
 GOBUILD     := $(GOCMD) build
